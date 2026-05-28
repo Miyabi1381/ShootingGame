@@ -4,17 +4,17 @@ using UnityEngine;
 public abstract class EnemyBase : MonoBehaviour
 {
     [Header("Status")]
-    // 最大体力値
+    // 譛螟ｧ菴灘鴨蛟､
     [SerializeField] protected int hitPoint;
-    // 現在の体力
+    // 迴ｾ蝨ｨ縺ｮ菴灘鴨
     protected int currentHitPoint;
 
     [Header("Movement")]
-    // 移動速度
+    // 遘ｻ蜍暮溷ｺｦ
     [SerializeField] protected float moveSpeed;
-    // 燃料
+    // 辯・侭
     [SerializeField] protected float fuel;
-    // 燃料の発射レート（１秒あたりの発射回数）
+    // 辯・侭縺ｮ逋ｺ蟆・Ξ繝ｼ繝茨ｼ茨ｼ醍ｧ偵≠縺溘ｊ縺ｮ逋ｺ蟆・屓謨ｰ・・
     [SerializeField] protected float fuelFireRate;
 
     // 1回でも画面内に移ったか
@@ -22,10 +22,10 @@ public abstract class EnemyBase : MonoBehaviour
 
     protected virtual void Awake()
     {
-        // パラメータの初期化
+        // 繝代Λ繝｡繝ｼ繧ｿ縺ｮ蛻晄悄蛹・
         Initialize();
 
-        // 現在の体力の初期化
+        // 迴ｾ蝨ｨ縺ｮ菴灘鴨縺ｮ蛻晄悄蛹・
         currentHitPoint = hitPoint;
     }
 
@@ -36,20 +36,20 @@ public abstract class EnemyBase : MonoBehaviour
 
     protected virtual void Update()
     {
-        // 体力が0以下の場合
+        // 菴灘鴨縺・莉･荳九・蝣ｴ蜷・
         if (currentHitPoint <= 0)
         {
-            // 破壊
+            // 遐ｴ螢・
             Die();
         }
 
-        // 動く
+        // 蜍輔￥
         Move();
     }
 
     protected virtual void OnBecameVisible()
     {
-        // 一度でも画面に映ったら true
+        // 画面に映ったらtrueにする
         hasAppeared = true;
     }
 
@@ -68,7 +68,7 @@ public abstract class EnemyBase : MonoBehaviour
     protected abstract void Initialize();
     // 移動
     protected abstract void Move();
-    // 攻撃
+    // 攻撃する
     protected abstract void Attack();
     // ダメージを受ける
     protected abstract void TakeDamage(int damage);
