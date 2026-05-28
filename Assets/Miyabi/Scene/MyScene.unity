@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 268506567}
   - component: {fileID: 268506569}
   - component: {fileID: 268506568}
+  - component: {fileID: 268506570}
   m_Layer: 5
   m_Name: Gage
   m_TagString: Untagged
@@ -169,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.44313726, b: 0.1490565, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -177,10 +178,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: -1788882098, guid: 12fb25af03e01ec45a438988f463e13f, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -194,6 +195,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268506566}
   m_CullTransparentMesh: 1
+--- !u!114 &268506570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268506566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885362766738297448f815bdb9e2f74d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GageControll
+  gaugeImage: {fileID: 268506568}
+  maxFuel: 30
+  currentFuel: 30
+  decreaseFuel_s: 1
 --- !u!1 &275889728
 GameObject:
   m_ObjectHideFlags: 0
