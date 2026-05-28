@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9018686452941340654}
   - component: {fileID: 1137933163328628121}
   - component: {fileID: 4857923811189132660}
-  - component: {fileID: -736903771452935536}
+  - component: {fileID: 6733231905572114953}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -114,7 +114,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &-736903771452935536
+--- !u!114 &6733231905572114953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65ac37903f538b44f86e40e523c99d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMoveMiya
-  hitPoint: 0
-  moveSpeed: 5
+  hitPoint: 10
+  moveSpeed: -0.01
   fuel: 0
+  fuelFireRate: 0
