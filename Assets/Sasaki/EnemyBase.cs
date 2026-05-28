@@ -17,6 +17,9 @@ public abstract class EnemyBase : MonoBehaviour
     // 燃料の発射レート（１秒あたりの発射回数）
     [SerializeField] protected float fuelFireRate;
 
+    // 1回でも画面内に移ったか
+    bool hasAppeared = false;
+
     protected virtual void Awake()
     {
         // パラメータの初期化
@@ -42,6 +45,22 @@ public abstract class EnemyBase : MonoBehaviour
 
         // 動く
         Move();
+    }
+
+    protected virtual void OnBecameVisible()
+    {
+        // 一度でも画面に映ったら true
+        hasAppeared = true;
+    }
+
+    // 画面外に出たら
+    protected virtual void OnBecameInvisible()
+    {
+        // まだ画面に映っていない状態で Invisible になった場合は無視
+        if (!hasAppeared) return;
+
+        // 画面に映った後で Invisible になったら破壊
+        Die();
     }
 
     // 派生クラスで実装する処理

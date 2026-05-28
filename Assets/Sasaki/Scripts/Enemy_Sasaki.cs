@@ -20,7 +20,7 @@ public class Enemy_Sasaki : EnemyBase
         // ‰æ–Ê‰º•ûŒü‚Éˆê’¼ü‚ÉˆÚ“®‚·‚é
         transform.Translate(Vector2.down * moveSpeed * Time.deltaTime);
 
-
+        Debug.Log("Moving");
     }
 
     protected override void Attack()
@@ -36,13 +36,8 @@ public class Enemy_Sasaki : EnemyBase
 
     protected override void Die()
     {
-        Destroy(gameObject);
-    }
+        Debug.Log("Destroy");
 
-    // ‰æ–ÊŠO‚Éo‚½‚ç
-    private void OnBecameInvisible()
-    {
-        // ”j‰ó
-        Die();
+        Destroy(gameObject);
     }
 }
