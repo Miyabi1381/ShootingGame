@@ -578,6 +578,63 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1001 &466242314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.42298
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.64762
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406485060767459380, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_Name
+      value: MiyabiEnemy (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
 --- !u!1 &671206738
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +892,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1001 &1126580832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.42298
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.64762
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406485060767459380, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_Name
+      value: MiyabiEnemy (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
 --- !u!1 &1180718074
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +1028,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1716373840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.42298
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.64762
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5563328875481443920, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406485060767459380, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
+      propertyPath: m_Name
+      value: MiyabiEnemy (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1541dba5d8bf2e4aa5398e931ed3620, type: 3}
 --- !u!1 &1765186030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,3 +1245,6 @@ SceneRoots:
   - {fileID: 753820603}
   - {fileID: 846882308}
   - {fileID: 1765186032}
+  - {fileID: 1716373840}
+  - {fileID: 466242314}
+  - {fileID: 1126580832}
