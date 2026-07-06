@@ -7,6 +7,9 @@ TagManager:
   - TagD
   - TagE
   - TagF
+  - TagA
+  - TagB
+  - TagC
   layers:
   - Default
   - TransparentFX
